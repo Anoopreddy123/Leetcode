@@ -1,23 +1,24 @@
 class Solution {
     public int singleNumber(int[] arr) {
-        HashMap<Integer, Integer> hashMap = new HashMap<>();
+      
         Arrays.sort(arr);
-        for(int i =0;i<arr.length;i++){
-            
-            if(hashMap.containsKey(arr[i])){
-                int temp = hashMap.get(arr[i]);
-                temp = temp + 1;
-                hashMap.put(arr[i],temp);
+         int i = 0;
+        int j = 1;
+if(arr.length == 1){
+    return arr[0];
+}
+        while(j<arr.length - 1){
+
+            if(arr[i] == arr[j]){
+                  i = i+2;
+                  j = j+2;
             }else{
-                 hashMap.put(arr[i],1);
+                return arr[i];
             }
-            
+
         }
-        
-       for (Map.Entry<Integer, Integer> entry : hashMap.entrySet()) {
-            if (entry.getValue() == 1) {
-               return entry.getKey();
-            }
+        if(arr[i - 1]!= arr[j - 1]){
+            return arr[i];
         }
         return 0;
     }
