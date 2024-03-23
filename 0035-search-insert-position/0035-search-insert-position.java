@@ -17,12 +17,22 @@ class Solution {
                return binarySearch(arr,0, mid,target);
            }
            
-       
-       
-   }else{
-           return low;
+       }else{
+           return position(arr, target);
        }
+       
    }
     
-
+    public int position(int[] arr, int target){
+        int count = -1;
+        for(int i=0;i<arr.length;i++){
+            if(target < arr[i]){
+                return i;
+            }
+        }
+        if(count == -1){
+            return arr.length;
+        }
+        return count;
+    }
 }
