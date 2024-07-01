@@ -1,54 +1,38 @@
 class Solution {
-    public int minEatingSpeed(int[] v, int h) {
-           int low = 1, high = findMax(v);
+   public int minEatingSpeed(int[] piles, int h) {
+        int min = 1, max = Integer.MIN_VALUE;
+        
+        // Correcting the logic for finding the max pile
+        for (int i = 0; i < piles.length; i++) {
+            if (max < piles[i]) max = piles[i];
+        }
 
-        //apply binary search:
-        while (low <= high) {
-            int mid = (low + high) / 2;
-            int totalH = calculateTotalHours(v, mid);
-            if (totalH <= h) {
-                high = mid - 1;
+        int start = 1, end = max;
+        int ans = -1;
+        
+        while (start <= end) {
+            int mid = (start + end) / 2;
+            boolean pos = possible(piles, h, mid);
+
+            if (pos) {
+                
+                end = mid - 1;
             } else {
-                low = mid + 1;
+                start = mid + 1;
             }
         }
-        return low;
+
+        return start;
     }
-    
-    public static int findMax(int[] v) {
-        int maxi = Integer.MIN_VALUE;;
-        int n = v.length;
-        //find the maximum:
-        for (int i = 0; i < n; i++) {
-            maxi = Math.max(maxi, v[i]);
+
+    public static boolean possible(int[] arr, int h, int mid) {
+        int hours = 0;
+
+       for (int i = 0; i < arr.length; i++) {
+            hours += Math.ceil((double)(arr[i]) / (double)(mid));
         }
-        return maxi;
+
+        return hours <= h;
     }
-
-    public static int calculateTotalHours(int[] v, int hourly) {
-        int totalH = 0;
-        int n = v.length;
-        //find total hours:
-        for (int i = 0; i < n; i++) {
-            totalH += Math.ceil((double)(v[i]) / (double)(hourly));
-        }
-        return totalH;
-    }
-
-//     public static int minimumRateToEatBananas(int[] v, int h) {
-//         int low = 1, high = findMax(v);
-
-//         //apply binary search:
-//         while (low <= high) {
-//             int mid = (low + high) / 2;
-//             int totalH = calculateTotalHours(v, mid);
-//             if (totalH <= h) {
-//                 high = mid - 1;
-//             } else {
-//                 low = mid + 1;
-//             }
-//         }
-//         return low;
-//     }
 
 }
