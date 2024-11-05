@@ -1,38 +1,33 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        int length = 0, max_len = 0;
+        int max_len = 0;
         int start_index = 0;
-        
         if (s.isEmpty()) {
             return 0;
         }
-
-        // Using a StringBuilder to manage the current substring dynamically
-        StringBuilder str = new StringBuilder();
-
+        
+        // String to store the current substring characters
+        String str = "";
+        
         for (int i = 0; i < s.length(); i++) {
             char currentChar = s.charAt(i);
             
-            // Check if currentChar is in str (current substring)
-            if (str.indexOf(String.valueOf(currentChar)) != -1) {
-                // Update max_len
-                max_len = Math.max(length, max_len);
+            // Check if the character is already in the substring
+            if (str.contains(String.valueOf(currentChar))) {
+                // Move the start index forward to exclude the previous occurrence of the duplicate character
+                start_index = s.indexOf(currentChar, start_index) + 1;
                 
-                // Remove characters from the start until duplicate is removed
-                while (str.indexOf(String.valueOf(currentChar)) != -1) {
-                    str.deleteCharAt(0);
-                    start_index++;
-                }
-                
-                length = str.length();
+                // Rebuild str to reflect the updated window from start_index to i
+                str = s.substring(start_index, i + 1);
+            } else {
+                // Append the character to the current substring
+                str += currentChar;
             }
             
-            // Add the current character to the substring and increase length
-            str.append(currentChar);
-            length++;
+            // Update max_len after each character addition
+            max_len = Math.max(max_len, str.length());
         }
-
-        // Final max_len update to capture the longest substring at the end of the loop
-        return Math.max(length, max_len);
+        
+        return max_len;
     }
 }
