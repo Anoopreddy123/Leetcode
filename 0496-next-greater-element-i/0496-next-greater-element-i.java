@@ -6,8 +6,9 @@ class Solution {
         
         int size = nums1.length;
         int[] arr = new int[size];
-        Arrays.fill(arr, -1);
+        
         for(int i =0; i < size; i++){
+            arr[i] = -1;
             int target = nums1[i];
             boolean found = false;
             for(int j = 0;j < nums2.length;j++){
