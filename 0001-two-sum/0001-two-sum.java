@@ -10,6 +10,7 @@ class Solution {
             if(map.containsKey(req) && map.get(req) != i){
                 temp[0] = i;
                 temp[1] = map.get(req);
+                break;
             }else{
                 map.put(nums[i],i);
             }
