@@ -13,7 +13,7 @@ class Solution:
                 
         if n < 0: 
             return 1/power(x, abs(n))
-        ans = power(x,n)
-        return ans
+        return power(x,n)
+        #return ans
             
         
