@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0238-product-of-array-except-self](https://github.com/Anoopreddy123/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Hash Table
 |  |
@@ -35,4 +36,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Anoopreddy123/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/Anoopreddy123/Leetcode/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
