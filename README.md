@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Anoopreddy123/Leetcode/tree/master/0056-merge-intervals) |
 | [0128-longest-consecutive-sequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Anoopreddy123/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/Anoopreddy123/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Hash Table
@@ -47,13 +48,23 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Anoopreddy123/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 ## Sorting
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Anoopreddy123/Leetcode/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Anoopreddy123/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Anoopreddy123/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Anoopreddy123/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
