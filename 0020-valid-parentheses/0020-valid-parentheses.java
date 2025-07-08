@@ -1,45 +1,15 @@
 class Solution {
     public boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
-        for(char c : s.toCharArray()){
+        boolean changed = true;
 
-            if(c == '{'){
-                stack.push('{');
-            }
-            else if(c == '['){
-                stack.push('[');
-            }
-            else if(c == '('){
-                stack.push('(');
-            }
-            else if(c == '}'){
-                if(!stack.isEmpty() && stack.peek() == '{'){
-                    stack.pop();
-                }else{
-                    return false;
-                }
-            }else if(c == ']'){
-                if(!stack.isEmpty() && stack.peek() == '[' ){
-                    stack.pop();
-                }else{
-                    return false;
-                }
-            }else if(c == ')'){
-                if(!stack.isEmpty() && stack.peek() == '(' ){
-                    stack.pop();
-                }else{
-                    return false;
-                }
-            }
-
-
-
+        while (changed) {
+            String temp = s;
+            s = s.replace("()", "")
+                 .replace("[]", "")
+                 .replace("{}", "");
+            changed = !s.equals(temp);  // check if any replacements occurred
         }
 
-        if(!stack.isEmpty()){
-            return false;
-        }
-
-return true;
+        return s.isEmpty();
     }
 }
