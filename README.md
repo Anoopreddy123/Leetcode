@@ -5,12 +5,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
 | [0238-product-of-array-except-self](https://github.com/Anoopreddy123/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Hash Table
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
 ## Union Find
 |  |
 | ------- |
@@ -40,4 +42,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Anoopreddy123/Leetcode/tree/master/0238-product-of-array-except-self) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
