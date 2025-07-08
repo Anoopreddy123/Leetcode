@@ -29,16 +29,21 @@ class LRUCache {
     }
     
     public void put(int key, int value) {
-    if (cache.containsKey(key)) {
-        cache.remove(key);  // remove to re-insert at the end (most recently used)
-    } else if (cache.size() == size) {
-        // only evict if key is new AND cache is full
-        Map.Entry<Integer, Integer> lru = cache.entrySet().iterator().next();
-        cache.remove(lru.getKey());
-    }
 
-    cache.put(key, value);
-}
+        if(cache.containsKey(key)){
+            cache.remove(key);
+        }
+        
+        if(cache.size() == size){
+           Map.Entry<Integer,Integer> temp = cache.entrySet().stream().findFirst().get();
+
+            cache.remove(temp.getKey());
+        }
+
+
+        cache.put(key, value);
+
+    }
 }
 
 /**
