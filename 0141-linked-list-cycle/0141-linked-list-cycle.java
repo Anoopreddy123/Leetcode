@@ -11,24 +11,26 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
-         ArrayList<ListNode> visited = new ArrayList<>();
+
         if(head == null){
             return false;
         }
-        
-        visited.add(head);
-        head=head.next;
-        while(head!=null){
-            
-            if(visited.contains(head))
-                return true;
-            else{
-                visited.add(head);
+        ListNode slow = head;
+        ListNode fast = head.next;
+        boolean flag = false;
+
+        while(fast != null && fast.next != null){
+
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if(slow == fast){
+                flag = true;
+                break;
             }
-            
-            head = head.next; 
+
         }
-        
-        return false;
-    }  
+
+        return flag;
+    }
 }
