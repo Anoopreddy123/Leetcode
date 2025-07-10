@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Anoopreddy123/Leetcode/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/Anoopreddy123/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Anoopreddy123/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Anoopreddy123/Leetcode/tree/master/0056-merge-intervals) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Anoopreddy123/Leetcode/tree/master/0011-container-with-most-water) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Anoopreddy123/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Prefix Sum
 |  |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Anoopreddy123/Leetcode/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/Anoopreddy123/Leetcode/tree/master/0042-trapping-rain-water) |
 ## Dynamic Programming
 |  |
