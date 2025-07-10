@@ -5,14 +5,15 @@ class Solution {
             int area = 0, max_area = 0;
 
             while(left < right){
-
-                    area = Math.min(arr[left], arr[right]) * (right - left );
+                    area = Math.min(arr[left], arr[right]) * (right - left);
                     max_area = Math.max(max_area, area);
+                    int temp = Math.min(arr[left], arr[right]);
+                    while(left < right && arr[left] <= temp ){
+                            left++;
+                    }
 
-                    if(arr[left] < arr[right]){
-                        left++;
-                    }else{
-                        right--;
+                     while(left < right && arr[right] <= temp ){
+                            right--;
                     }
 
             }
