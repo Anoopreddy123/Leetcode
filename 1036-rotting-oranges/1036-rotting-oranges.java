@@ -1,55 +1,36 @@
 class Solution {
     public int orangesRotting(int[][] grid) {
-        int m = grid.length;
-        int n = grid[0].length;
-        int[][] timeGrid = new int[m][n];
+       if (grid == null || grid.length == 0) return -1;
 
-        // Initialize timeGrid with max values
-        for (int i = 0; i < m; i++)
-            for (int j = 0; j < n; j++)
-                timeGrid[i][j] = Integer.MAX_VALUE;
+    int rows = grid.length, cols = grid[0].length;
+    int[][] time = new int[rows][cols];
+    for (int i = 0; i < rows; i++)
+      Arrays.fill(time[i], Integer.MAX_VALUE);
 
-        // Start DFS from all rotten oranges
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 2) {
-                    dfs(grid, timeGrid, i, j, 0);
-                }
-            }
+    for (int i = 0; i < rows; i++)
+      for (int j = 0; j < cols; j++)
+        if (grid[i][j] == 2)
+          dfs(grid, time, i, j, 0);
+
+    int timeRequired = 0;
+    for (int i = 0; i < rows; i++)
+      for (int j = 0; j < cols; j++)
+        if (grid[i][j] == 1) {
+          if (time[i][j] == Integer.MAX_VALUE) return -1;
+          timeRequired = Math.max(timeRequired, time[i][j]);
         }
 
-        // Check for unreachable fresh oranges and get max time
-        int maxTime = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1) {
-                    if (timeGrid[i][j] == Integer.MAX_VALUE)
-                        return -1;
-                    maxTime = Math.max(maxTime, timeGrid[i][j]);
-                }
-            }
-        }
+    return timeRequired;
+  }
 
-        return maxTime;
-    }
+  private void dfs(int[][] grid, int[][] time, int i, int j, int currentTime) {
+    if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length
+        || grid[i][j] == 0 || currentTime >= time[i][j]) return;
 
-    public void dfs(int[][] grid, int[][] timeGrid, int i, int j, int time) {
-        int m = grid.length;
-        int n = grid[0].length;
-
-        // Boundary or empty cell
-        if (i < 0 || j < 0 || i >= m || j >= n || grid[i][j] == 0)
-            return;
-
-        // Only propagate if we're improving time
-        if (time >= timeGrid[i][j])
-            return;
-
-        timeGrid[i][j] = time;
-
-        dfs(grid, timeGrid, i + 1, j, time + 1);
-        dfs(grid, timeGrid, i - 1, j, time + 1);
-        dfs(grid, timeGrid, i, j + 1, time + 1);
-        dfs(grid, timeGrid, i, j - 1, time + 1);
-    }
+    time[i][j] = currentTime;
+    dfs(grid, time, i - 1, j, currentTime + 1);
+    dfs(grid, time, i + 1, j, currentTime + 1);
+    dfs(grid, time, i, j - 1, currentTime + 1);
+    dfs(grid, time, i, j + 1, currentTime + 1);
+  }
 }
