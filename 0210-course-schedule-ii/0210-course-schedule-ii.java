@@ -1,60 +1,53 @@
 class Solution {
-    public int[] findOrder(int numCourses, int[][] arr) {
-        boolean[] visited = new boolean[numCourses];  
-         boolean[] onPath = new boolean[numCourses];  
-        int[][] adj = new int[numCourses][numCourses];
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
+               List<Integer> lists = new ArrayList<>();
+               int[] res = new int[numCourses];
+        int[] inDegree = new int[numCourses];
+        Arrays.fill(inDegree,0);
+        Queue<Integer> queue = new LinkedList<>();
+        List<List<Integer>> adj = new ArrayList<>();;
+        for(int i =0; i < numCourses; i++){
+            ArrayList<Integer> list = new ArrayList<>();
+            adj.add(i, list);
+        }    
+        for(int[] arr : prerequisites){
 
-        for(int[] temp : arr){
+            int u = arr[0];
+            int v = arr[1];
 
-            int i = temp[1];
-            int j = temp[0];
+            adj.get(v).add(u);
+            inDegree[u]++;
+        }
 
-            adj[i][j] = 1;
+        for(int i = 0; i < numCourses; i++){
+
+            if(inDegree[i] == 0){
+                queue.offer(i);
+            }
 
         }
 
-        Stack<Integer> stack = new Stack<>();
 
-            for (int i = 0; i < numCourses; i++) {
-            if (!visited[i]) {
-             if(dfs(i, adj, visited, stack, onPath)){
-                return new int[0];
-             }
-            }
+        while(!queue.isEmpty()){
+
+            int node = queue.poll();
+            lists.add(node);
+            for(int i : adj.get(node)){
+                inDegree[i]--;
+                if(inDegree[i] == 0){
+                    queue.offer(i);
+                }
             }
 
-        int[] res = new int[numCourses];
-            int i = 0;
-        while(!stack.isEmpty()){
-            res[i++] = stack.pop();
+        }
+
+        int k = 0;
+        for(int i : lists){
+            res[k++] = i;
         }
 
         return res;
     }
-
-
-    public boolean dfs(int i, int[][] adj, boolean[] visited, Stack<Integer> stack, boolean[] onPath){
-
-    if(onPath[i]){
-        return true;
-    }
-    if(visited[i]){
-        return false;
-    }
-onPath[i] = true;
- visited[i] = true;
-          
-        for(int k = 0; k < adj.length; k++){
-
-if(adj[i][k] == 1)  
-              if(dfs(k, adj, visited, stack, onPath)){
-                   return true;
-
-            }
-        }
-        stack.push(i);
-        onPath[i] = false;
-        return false;
-
-    }
 }
+
+
