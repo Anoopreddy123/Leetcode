@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0101-symmetric-tree) |
 | [0200-number-of-islands](https://github.com/Anoopreddy123/Leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/Anoopreddy123/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Anoopreddy123/Leetcode/tree/master/0733-flood-fill) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0101-symmetric-tree) |
 | [0200-number-of-islands](https://github.com/Anoopreddy123/Leetcode/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/Anoopreddy123/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Anoopreddy123/Leetcode/tree/master/0733-flood-fill) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Anoopreddy123/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
 ## Simulation
@@ -205,5 +208,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Anoopreddy123/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0210-course-schedule-ii) |
 <!---LeetCode Topics End-->
