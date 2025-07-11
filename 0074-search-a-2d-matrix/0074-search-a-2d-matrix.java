@@ -1,25 +1,21 @@
 class Solution {
-   public boolean searchMatrix(int[][] mat, int target) {
-   if(mat.length == 0){
-            return false;
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int i =0, j = matrix[0].length-1;
+
+        while( i < matrix.length && j >= 0){
+
+                if(matrix[i][j] == target){
+                    return true;
+                }
+
+                 if ( target < matrix[i][j]){
+                    j--;
+
+                }else{
+                    i++;
+                }
         }
-        
-        int n = mat[0].length;
-        int m = mat.length;
-        int i = 0, j = n-1;
-       
- 
-        while (i < m && j >= 0)
-        {
-            if (mat[i][j] == target)
-            {
-                return true;
-            }
-            if (mat[i][j] > target)
-                j--;
-            else 
-                i++;
-        }
+
         return false;
     }
 }
