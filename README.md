@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/Anoopreddy123/Leetcode/tree/master/0071-simplify-path) |
 | [0387-first-unique-character-in-a-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0394-decode-string) |
+| [0657-robot-return-to-origin](https://github.com/Anoopreddy123/Leetcode/tree/master/0657-robot-return-to-origin) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Anoopreddy123/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Anoopreddy123/Leetcode/tree/master/2536-determine-if-two-events-have-conflict) |
 ## Backtracking
@@ -174,4 +175,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
+## Simulation
+|  |
+| ------- |
+| [0657-robot-return-to-origin](https://github.com/Anoopreddy123/Leetcode/tree/master/0657-robot-return-to-origin) |
 <!---LeetCode Topics End-->
