@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
 ## Stack
 |  |
 | ------- |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Anoopreddy123/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0101-symmetric-tree) |
+| [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
 ## Binary Tree
 |  |
 | ------- |
@@ -167,4 +169,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0101-symmetric-tree) |
+| [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
