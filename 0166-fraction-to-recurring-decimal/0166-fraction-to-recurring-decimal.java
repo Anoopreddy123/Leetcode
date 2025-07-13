@@ -28,7 +28,7 @@ class Solution {
             if (map.containsKey(remainder)) {
                 sb.insert(map.get(remainder), "(");
                 sb.append(")");
-                break;
+               return sb.toString();
             }
 
             map.put(remainder, sb.length());
