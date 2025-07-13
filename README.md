@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Anoopreddy123/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Anoopreddy123/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/Anoopreddy123/Leetcode/tree/master/0070-climbing-stairs) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0435-non-overlapping-intervals](https://github.com/Anoopreddy123/Leetcode/tree/master/0435-non-overlapping-intervals) |
 ## Binary Search
@@ -230,6 +231,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Anoopreddy123/Leetcode/tree/master/0070-climbing-stairs) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Anoopreddy123/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0326-power-of-three](https://github.com/Anoopreddy123/Leetcode/tree/master/0326-power-of-three) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Anoopreddy123/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
