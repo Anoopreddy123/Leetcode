@@ -25,6 +25,7 @@ class Solution {
             }
 
         }
+        System.out.println(adj);
 
         while(!queue.isEmpty()){
 
@@ -39,7 +40,7 @@ class Solution {
 
         }
 if (lists.size() != numCourses) {
-    return new int[0]; // \U0001f6a8 cycle detected
+    return new int[0]; 
 }
         int k = 0;
         for(int i : lists){
