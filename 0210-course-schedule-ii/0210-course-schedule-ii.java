@@ -1,11 +1,10 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-               List<Integer> lists = new ArrayList<>();
-               int[] res = new int[numCourses];
         int[] inDegree = new int[numCourses];
-        Arrays.fill(inDegree,0);
+       List<List<Integer>> adj = new ArrayList<>();
         Queue<Integer> queue = new LinkedList<>();
-        List<List<Integer>> adj = new ArrayList<>();;
+            int[] res = new int[numCourses];
+ List<Integer> lists = new ArrayList<>();
         for(int i =0; i < numCourses; i++){
             ArrayList<Integer> list = new ArrayList<>();
             adj.add(i, list);
@@ -27,7 +26,6 @@ class Solution {
 
         }
 
-
         while(!queue.isEmpty()){
 
             int node = queue.poll();
@@ -40,14 +38,15 @@ class Solution {
             }
 
         }
-
+if (lists.size() != numCourses) {
+    return new int[0]; // \U0001f6a8 cycle detected
+}
         int k = 0;
         for(int i : lists){
             res[k++] = i;
         }
 
         return res;
+
     }
 }
-
-
