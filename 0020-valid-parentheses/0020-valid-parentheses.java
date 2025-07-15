@@ -1,15 +1,21 @@
 class Solution {
     public boolean isValid(String s) {
-        boolean changed = true;
-
-        while (changed) {
-            String temp = s;
-            s = s.replace("()", "")
-                 .replace("[]", "")
-                 .replace("{}", "");
-            changed = !s.equals(temp);  // check if any replacements occurred
+        Stack<Character> stack = new Stack();
+        for(int i = 0; i< s.length(); i++){
+            if(s.charAt(i) == '('){
+                stack.push(')');
+            }
+            else if(s.charAt(i) == '{'){
+               stack.push('}');
+            }
+              else if(s.charAt(i) == '['){
+              stack.push(']');
+            }
+            else if(stack.isEmpty() || stack.pop() != s.charAt(i)){
+                 return false;
+            }
+           
         }
-
-        return s.isEmpty();
+        return stack.isEmpty();
     }
 }
