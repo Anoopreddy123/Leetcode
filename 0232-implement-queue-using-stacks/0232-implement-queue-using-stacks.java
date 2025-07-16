@@ -1,12 +1,13 @@
 class MyQueue {
     
     
-    Stack<Integer> stack1 = new Stack();
-    Stack<Integer> stack2 = new Stack();
+    Stack<Integer> stack1;
+    Stack<Integer> stack2;
     int peek = 0;
     
     public MyQueue() {
-  
+        stack1 = new Stack();
+        stack2 = new Stack();
     }
     
     public void push(int x) {
