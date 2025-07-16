@@ -10,11 +10,7 @@ class Solution {
                 k++;
             }
         }
-        System.out.print(k);
-        while(k < popped.length && popped[k] == pushing.peek()){
-            pushing.pop();
-            k++;
-        }
+       
 
         return pushing.isEmpty();
 
