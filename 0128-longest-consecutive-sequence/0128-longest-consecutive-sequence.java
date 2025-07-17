@@ -8,8 +8,9 @@ class Solution {
         int count = 0;
        // int prev = 0;
 
-       for(int i : hashSet){
+       for(int i : hashSet){  System.out.println(i );
             if(!hashSet.contains(i - 1)){
+                System.out.println(i - 1);
                 int currentVal = i;
                 int currentStreak = 1;
 
