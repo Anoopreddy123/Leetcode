@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Anoopreddy123/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0983-validate-stack-sequences](https://github.com/Anoopreddy123/Leetcode/tree/master/0983-validate-stack-sequences) |
 | [1036-rotting-oranges](https://github.com/Anoopreddy123/Leetcode/tree/master/1036-rotting-oranges) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1331-path-with-maximum-gold](https://github.com/Anoopreddy123/Leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Anoopreddy123/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0387-first-unique-character-in-a-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/Anoopreddy123/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 ## Union Find
 |  |
 | ------- |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/Anoopreddy123/Leetcode/tree/master/0169-majority-element) |
 | [0387-first-unique-character-in-a-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
