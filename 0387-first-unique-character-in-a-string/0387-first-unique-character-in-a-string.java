@@ -1,7 +1,7 @@
 class Solution {
     public int firstUniqChar(String s) {
         int[] freq = new int[26];
-        Arrays.fill(freq,0);
+        //Arrays.fill(freq,0);
 
         for(char ch : s.toCharArray()){
                freq[ch - 'a']++;
