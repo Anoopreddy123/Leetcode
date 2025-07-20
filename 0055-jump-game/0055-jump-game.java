@@ -1,16 +1,23 @@
 class Solution {
     public boolean canJump(int[] nums) {
-      int size = nums.length;
-      boolean dp[] = new boolean[nums.length];
-        dp[size - 1] = true;
-      for(int i = size - 2; i>=0;i--){
-         if(nums[i] > 0 && dp[i + 1] == true){
-            dp[i]=true;
-         }else{
-            return false;
-         }
-      }
+        
+        int goalPost = nums.length - 1;
+        int size = nums.length - 1;
+        for(int i = size; i >= 0; i--){
 
-      return true;
+            if(i + nums[i] >= goalPost){
+                goalPost = i;
+            }else{
+                return false;
+            }
+
+        }
+
+        if(goalPost == 0){
+            return true;
+        }else{
+            return false;
+        }
+
     }
 }
