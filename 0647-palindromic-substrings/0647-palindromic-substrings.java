@@ -18,12 +18,21 @@ class Solution {
     
     public boolean isPalendrome(String st){
         
-        
-        StringBuilder sb = new StringBuilder(st);
-      
-        String reversed = sb.reverse().toString();
-        
-        return reversed.equals(st);
+    int stLen = st.length(); 
+       int i = 0 , j  = stLen - 1;
+
+       while(i < j){
+            if(st.charAt(i) == st.charAt(j)){
+                i++;
+                j--;
+                continue;
+            }else{
+                return false;
+            }
+       }
+
+       return true;
+
         
     }
 }
