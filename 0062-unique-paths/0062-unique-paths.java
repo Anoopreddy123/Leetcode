@@ -1,31 +1,29 @@
 class Solution {
     public int uniquePaths(int m, int n) {
-          
-             int[][] memo = new int[m][n];
-                return dfs(0, 0, m, n, memo);
-            // int count = dfs(i, j, m,n);
-
-            // return count;
-
+        int ans = 0;
+        int[][] dp = new int[m][n];
+       
+                ans += helper(m, n, 0 ,0, dp);
+      
+        return ans;
     }
 
+    public static int helper(int m, int n, int i, int j, int[][] dp){
 
-    public static int dfs(int i, int j, int m, int n, int[][] memo){
+        if( i < 0 || j < 0 || i >=m || j >= n){
+            return 0;
+        }
+        int count = 0;
+        if(i == m-1 && j ==  n-1) return 1;
+        if(dp[i][j] != 0){
+            return dp[i][j];
+        }
 
+        count += helper(m, n, i+ 1,j, dp);
+     
+          count += helper(m, n, i ,j + 1, dp);
+         
 
-            if(i < 0 || j < 0 || i >=m || j >= n){
-                return 0;
-            }
-
- if (i == m - 1 && j == n - 1) return 1;
-            if (memo[i][j] != 0) return memo[i][j];
-
-        memo[i][j] = dfs(i + 1, j, m, n, memo) + dfs(i, j + 1, m, n, memo);
-        return memo[i][j];
-
-
-
-
-        
+        return dp[i][j] = count;
     }
 }
