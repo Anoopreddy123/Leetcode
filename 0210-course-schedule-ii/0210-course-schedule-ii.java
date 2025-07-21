@@ -15,13 +15,9 @@ class Solution {
             inDegree[u]++;
         }
 
-        for(int i : inDegree){
-
-            if(i == 0){
-                queue.offer(i);
-            }
-
-        }
+       for (int i = 0; i < numCourses; i++) {
+    if (inDegree[i] == 0) queue.offer(i);
+}
         int k = 0;
         while(!queue.isEmpty()){
             
@@ -36,8 +32,8 @@ class Solution {
             }
 
         }
-
-        return res;
+  
+          return (k == numCourses) ? res : new int[0];
 
     }
 }
