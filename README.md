@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Anoopreddy123/Leetcode/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/Anoopreddy123/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
+| [1319-unique-number-of-occurrences](https://github.com/Anoopreddy123/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1331-path-with-maximum-gold](https://github.com/Anoopreddy123/Leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Anoopreddy123/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Anoopreddy123/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1039-find-the-town-judge](https://github.com/Anoopreddy123/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
+| [1319-unique-number-of-occurrences](https://github.com/Anoopreddy123/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 ## Union Find
 |  |
 | ------- |
