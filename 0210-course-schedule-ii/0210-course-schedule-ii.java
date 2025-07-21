@@ -1,50 +1,40 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
+        int[] res = new int[numCourses];
         int[] inDegree = new int[numCourses];
-       List<List<Integer>> adj = new ArrayList<>();
+        List<List<Integer>> adj = new ArrayList<>();
         Queue<Integer> queue = new LinkedList<>();
-            int[] res = new int[numCourses];
- List<Integer> lists = new ArrayList<>();
-        for(int i =0; i < numCourses; i++){
-            ArrayList<Integer> list = new ArrayList<>();
-            adj.add(i, list);
-        }    
+        for(int i = 0; i < numCourses; i++){
+            List<Integer> list = new ArrayList<>();
+             adj.add(i, list);
+        }
         for(int[] arr : prerequisites){
-
             int u = arr[0];
             int v = arr[1];
-
             adj.get(v).add(u);
             inDegree[u]++;
         }
 
-        for(int i = 0; i < numCourses; i++){
+        for(int i : inDegree){
 
-            if(inDegree[i] == 0){
+            if(i == 0){
                 queue.offer(i);
             }
 
         }
-        System.out.println(adj);
-
+        int k = 0;
         while(!queue.isEmpty()){
-
-            int node = queue.poll();
-            lists.add(node);
-            for(int i : adj.get(node)){
+            
+            int currCourse = queue.poll();
+            List<Integer> currNode = adj.get(currCourse);
+            res[k++] = currCourse;
+            for(int i : currNode){
                 inDegree[i]--;
                 if(inDegree[i] == 0){
                     queue.offer(i);
                 }
             }
 
-        }
-if (lists.size() != numCourses) {
-    return new int[0]; 
-}
-        int k = 0;
-        for(int i : lists){
-            res[k++] = i;
         }
 
         return res;
