@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Anoopreddy123/Leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Anoopreddy123/Leetcode/tree/master/0547-number-of-provinces) |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/Anoopreddy123/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 ## Stack
 |  |
 | ------- |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0394-decode-string) |
 | [0647-palindromic-substrings](https://github.com/Anoopreddy123/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/Anoopreddy123/Leetcode/tree/master/0657-robot-return-to-origin) |
+| [1058-lexicographically-smallest-equivalent-string](https://github.com/Anoopreddy123/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1252-break-a-palindrome](https://github.com/Anoopreddy123/Leetcode/tree/master/1252-break-a-palindrome) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Anoopreddy123/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
