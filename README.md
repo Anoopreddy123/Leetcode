@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Anoopreddy123/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Anoopreddy123/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Quickselect
 |  |
 | ------- |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Anoopreddy123/Leetcode/tree/master/0146-lru-cache) |
 | [0225-implement-stack-using-queues](https://github.com/Anoopreddy123/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anoopreddy123/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Anoopreddy123/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Anoopreddy123/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0101-symmetric-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Anoopreddy123/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -256,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Anoopreddy123/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Anoopreddy123/Leetcode/tree/master/0101-symmetric-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Anoopreddy123/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -310,4 +314,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Anoopreddy123/Leetcode/tree/master/0062-unique-paths) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Anoopreddy123/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Anoopreddy123/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
