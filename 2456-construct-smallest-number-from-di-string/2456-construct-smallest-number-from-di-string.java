@@ -8,7 +8,7 @@ class Solution {
 
             stack.push(i + 1);
 
-            if( i == pattern.length() || pattern.charAt(i) == 'I' ){
+            if(i < pattern.length() && pattern.charAt(i) == 'I' && !stack.isEmpty() ){
 
                 while(!stack.isEmpty()){
                     sb.append(stack.pop());
@@ -18,6 +18,9 @@ class Solution {
 
         }
 
+while(!stack.isEmpty()){
+                    sb.append(stack.pop());
+                }
 
 
         return sb.toString();
