@@ -1,39 +1,51 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        int[] res = new int[numCourses];
-        int[] inDegree = new int[numCourses];
         List<List<Integer>> adj = new ArrayList<>();
-        Queue<Integer> queue = new LinkedList<>();
+        int inDegree[] = new int[numCourses];
+
         for(int i = 0; i < numCourses; i++){
-            List<Integer> list = new ArrayList<>();
-             adj.add(i, list);
+            adj.add(new ArrayList<>());
         }
-        for(int[] arr : prerequisites){
-            int u = arr[0];
-            int v = arr[1];
+
+        for(int[] course : prerequisites){
+            int u = course[0];
+            int v = course[1];
+
             adj.get(v).add(u);
             inDegree[u]++;
         }
 
-       for (int i = 0; i < numCourses; i++) {
-    if (inDegree[i] == 0) queue.offer(i);
-}
-        int k = 0;
-        while(!queue.isEmpty()){
-            
-            int currCourse = queue.poll();
-            List<Integer> currNode = adj.get(currCourse);
-            res[k++] = currCourse;
-            for(int i : currNode){
-                inDegree[i]--;
-                if(inDegree[i] == 0){
-                    queue.offer(i);
-                }
+        Queue<Integer> queue = new LinkedList<>();
+        for(int i : inDegree){
+
+            if(i == 0){
+                queue.offer(i);
             }
 
         }
-  
-          return (k == numCourses) ? res : new int[0];
+
+        int[] res = new int[numCourses];
+        int it = 0;
+        while(!queue.isEmpty()){
+            int temp = queue.poll();
+            List<Integer> courses = adj.get(temp);
+            res[it++] = temp;
+            for(int i : courses){
+
+                inDegree[i]--;
+               
+                if(inDegree[i] == 0){
+                    queue.add(i);
+                }
+
+            }
+
+
+
+
+        }
+
+return res;
 
     }
 }
