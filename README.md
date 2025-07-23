@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/Anoopreddy123/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0387-first-unique-character-in-a-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0394-decode-string) |
+| [0443-string-compression](https://github.com/Anoopreddy123/Leetcode/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Anoopreddy123/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/Anoopreddy123/Leetcode/tree/master/0657-robot-return-to-origin) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Anoopreddy123/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/Anoopreddy123/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0443-string-compression](https://github.com/Anoopreddy123/Leetcode/tree/master/0443-string-compression) |
 | [0647-palindromic-substrings](https://github.com/Anoopreddy123/Leetcode/tree/master/0647-palindromic-substrings) |
 ## Dynamic Programming
 |  |
