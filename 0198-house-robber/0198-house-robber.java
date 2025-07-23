@@ -1,20 +1,27 @@
 class Solution {
     public int rob(int[] nums) {
-        
-        // constraint is to not rob 2 adj houses
-        int size = nums.length;
-        if(size == 1){
-            return nums[0];
-        }
+     // 2,7,9,3,1   
+     //         12,10,10,3,1
+     int size = nums.length;
 
-        // used for memoization
-        int[] dp = new int[size];
-        dp[size - 1] = nums[size - 1];
-        dp[size - 2] = Math.max(dp[size - 1], nums[size - 2]);
-        for(int i = size - 3; i >=0; i-- ){
-            dp[i] = Math.max((nums[i] + dp[i + 2]) , dp[i+1]);
-        }
+     if(size == 1){
+        return nums[0];
+     }
 
-        return dp[0];
+     if(size == 2){
+        return Math.max(nums[0], nums[1]);
+     }
+     int[] dp = new int[size];
+     dp[0] = nums[0];
+     dp[1] = Math.max(dp[0], nums[1]);
+
+     for(int i = 2; i < size; i++){
+
+        dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i]);
+
+     }
+
+     return dp[size-1];
+
     }
 }
