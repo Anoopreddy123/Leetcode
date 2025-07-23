@@ -16,13 +16,11 @@ class Solution {
         }
 
         Queue<Integer> queue = new LinkedList<>();
-        for(int i : inDegree){
-
-            if(i == 0){
-                queue.offer(i);
-            }
-
-        }
+        for (int i = 0; i < numCourses; i++) {
+    if (inDegree[i] == 0) {
+        queue.offer(i); 
+    }
+}
 
         int[] res = new int[numCourses];
         int it = 0;
@@ -35,7 +33,7 @@ class Solution {
                 inDegree[i]--;
                
                 if(inDegree[i] == 0){
-                    queue.add(i);
+                    queue.offer(i);
                 }
 
             }
@@ -45,7 +43,7 @@ class Solution {
 
         }
 
-return res;
+  return (it == numCourses) ? res : new int[0];
 
     }
 }
