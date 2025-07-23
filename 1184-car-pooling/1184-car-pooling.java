@@ -3,16 +3,16 @@ import java.util.*;
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         int n = trips.length;
-        // int[] start = new int[n];
-        // int[] end = new int[n];
+        int[] start = new int[n];
+        int[] end = new int[n];
 
-        // for (int i = 0; i < n; i++) {
-        //     start[i] = trips[i][1];
-        //     end[i] = trips[i][2];
-        // }
+        for (int i = 0; i < n; i++) {
+            start[i] = trips[i][1];
+            end[i] = trips[i][2];
+        }
 
-        // Arrays.sort(start);
-        // Arrays.sort(end);
+        Arrays.sort(start);
+        Arrays.sort(end);
 
         // But this is incomplete because we also need passengers per trip
         // So we need an event-based approach
