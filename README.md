@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0983-validate-stack-sequences](https://github.com/Anoopreddy123/Leetcode/tree/master/0983-validate-stack-sequences) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Anoopreddy123/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Anoopreddy123/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Monotonic Stack
 |  |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Anoopreddy123/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1252-break-a-palindrome](https://github.com/Anoopreddy123/Leetcode/tree/master/1252-break-a-palindrome) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Anoopreddy123/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Anoopreddy123/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Anoopreddy123/Leetcode/tree/master/2536-determine-if-two-events-have-conflict) |
 ## Backtracking
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/Anoopreddy123/Leetcode/tree/master/0657-robot-return-to-origin) |
 | [0983-validate-stack-sequences](https://github.com/Anoopreddy123/Leetcode/tree/master/0983-validate-stack-sequences) |
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/Anoopreddy123/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Matrix
 |  |
 | ------- |
