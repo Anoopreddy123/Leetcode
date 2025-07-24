@@ -1,38 +1,43 @@
 class Solution {
     public String decodeString(String s) {
-        // given input  3[a]2[bc] || 3[a2[c]] -> 3[acc] -> accaccacc
-        Stack<Integer> stack = new Stack();
-        Stack<String> charTemp = new Stack();
-        String nums = "";
+        String num = "";
         String str = "";
-        String res = "";
-       
-        for(char ch : s.toCharArray()){
 
-                if(Character.isDigit(ch)){
-                    nums += ch;
-                }else if(ch == '['){
-                    stack.push(Integer.parseInt(nums));
-                    charTemp.push(str);
-                    nums="";
-                    str = ""; 
-                }else if(ch == ']'){ 
-                    StringBuilder sb = new StringBuilder();
-                    int count = stack.pop();
-                    for(int i =0; i < count; i++){
-                        sb.append(str);
-                    }
+        Stack<String> nums = new Stack<>();
+        Stack<String> seq = new Stack<>();
+        
 
-                   //str+=sb.toString();
-                   str = charTemp.pop() + sb.toString();
-                
-                }else{
-                    str+=ch;
+        for(char c : s.toCharArray()){
+
+            if(Character.isDigit(c)){
+                num+= c;
+            }
+            else if( c == '['){
+
+                nums.push(num);
+                seq.push(str);
+                str = "";
+                num = "";
+
+            }else if(c == ']'){
+StringBuilder sb = new StringBuilder();
+                int count = Integer.parseInt(nums.pop());
+                //String temp = seq.pop();
+                for(int i = 0; i < count; i++){
+
+                    sb.append(str);
+
                 }
-                System.out.print(res);
+
+
+            str = (seq.pop() + sb.toString());
+
+            }else{
+                str += c;
+            }
 
         }
-            
+
         return str;
     }
 }
