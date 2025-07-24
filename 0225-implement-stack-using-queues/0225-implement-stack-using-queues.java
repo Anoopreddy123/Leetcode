@@ -16,11 +16,12 @@ class MyStack {
     
     public int pop() {
             int ele = 0;
-        while(!queue1.isEmpty()){
+        while(queue1.size() != 1){
              ele = queue1.remove();
+             peek = ele;
             queue2.offer(ele);
         }
-
+        ele = queue1.poll();
         queue1 = queue2;
         queue2 = new LinkedList();
         return ele;
@@ -36,7 +37,11 @@ class MyStack {
     
     public boolean empty() {
         
-        return queue1.isEmpty();
+      if(queue1.isEmpty()){
+            return true;
+        }else{
+            return false;
+        }
 
     }
 }
