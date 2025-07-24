@@ -17,7 +17,7 @@ class Solution {
                 while (cnt-- > 0 && !stack.isEmpty()) {
                     stack.pop();
                 }
-               count.pop(); // reset count for this char
+               count.pop(); 
             }
         }
 
