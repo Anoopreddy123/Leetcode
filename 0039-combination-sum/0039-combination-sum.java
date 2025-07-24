@@ -1,29 +1,31 @@
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> res = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+        helper(candidates, ans, list, 0, 0, target);
 
-        helper(candidates, target, res, 0, 0, new ArrayList<>());
-        return res;
+        return ans;
     }
 
-    public void helper(int[] candidates, int target, List<List<Integer>> res, int sum, int index, List<Integer> ans){
+    public void helper(int[] candidates,  List<List<Integer>> ans, List<Integer> list, int sum, int index, int target){
 
-        if(sum == target){
-            res.add(new ArrayList<>(ans));
-          return;
+        if(sum > target || index >= candidates.length){
+            return ;
         }
 
-        if(index >= candidates.length || sum > target) return;
+        if(sum == target){
+            ans.add(new ArrayList<>(list));
+            return;
+        }
+        
+        list.add(candidates[index]);
+        helper(candidates, ans, list, sum + candidates[index], index, target);
+        list.remove(list.size() - 1);
 
-        ans.add(candidates[index]);
-
-        helper(candidates, target, res, sum + candidates[index], index, ans);
-
-        ans.remove(ans.size() - 1);
-
-     helper(candidates, target, res, sum , index + 1, ans);
+         helper(candidates, ans, list, sum, index + 1, target);
 
 
+         //return ans;
 
 
     }
