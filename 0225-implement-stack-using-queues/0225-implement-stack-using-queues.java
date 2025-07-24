@@ -1,42 +1,43 @@
 class MyStack {
-
-    Queue<Integer> main;
-    Queue<Integer> temp_main;
-    int topElement;
+    Queue<Integer> queue1;
+    Queue<Integer> queue2;
+    int peek = -1;
     public MyStack() {
-        main = new LinkedList<>();
-        temp_main = new LinkedList<>();
+        queue1 = new LinkedList<>();
+        queue2 = new LinkedList<>();
     }
     
     public void push(int x) {
-        topElement = x;
-        main.add(x);
+
+        queue1.add(x);
+        peek = x;
 
     }
     
     public int pop() {
-        while(main.size() != 1){
-            int x = main.remove();
-            topElement = x;
-            temp_main.add(x);
-            
+            int ele = 0;
+        while(!queue1.isEmpty()){
+             ele = queue1.remove();
+            queue2.offer(ele);
         }
-        int ans = main.remove();
-        main = temp_main;
-        temp_main = new LinkedList<>();
-        return ans;
+
+        queue1 = queue2;
+        queue2 = new LinkedList();
+        return ele;
+
+
     }
     
     public int top() {
-        return topElement;
+        
+
+        return peek;
     }
     
     public boolean empty() {
-        if(main.isEmpty()){
-            return true;
-        }else{
-            return false;
-        }
+        
+        return queue1.isEmpty();
+
     }
 }
 
