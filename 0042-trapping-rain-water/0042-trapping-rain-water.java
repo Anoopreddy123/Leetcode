@@ -1,32 +1,32 @@
 class Solution {
-    public int trap(int[] arr) {
+    public int trap(int[] height) {
+        
+        int left = 0 , right = height.length - 1;
         int leftMax = 0, rightMax = 0;
-        int res = 0;
-        int l = 0, r = arr.length-1;
+        int sum = 0;
+        while(left <=right){
 
-        while(l <=r){
+            if(height[left] < height[right]){
+                
+                    if(leftMax >= height[left]){
+                        sum += leftMax - height[left];
+                    }else{
+                        leftMax = height[left];
+                    }
 
-            if(arr[l] < arr[r]){
-                if(leftMax >= arr[l]){
-                    res += leftMax- arr[l];
-                   
-                }else{
-                    leftMax = arr[l];
-                }
-                 l++;
+                left++;
             }else{
-                if(rightMax >= arr[r]){
-                    res += rightMax - arr[r];
-                   
-                }else{
-                    rightMax = arr[r];
-                }
-                 r--;
+                 if(rightMax >= height[right]){
+                        sum += rightMax - height[right];
+                    }else{
+                        rightMax = height[right];
+                    }
+
+                    right--;
             }
-
-
         }
 
-        return res;
+        return sum;
+
     }
 }
