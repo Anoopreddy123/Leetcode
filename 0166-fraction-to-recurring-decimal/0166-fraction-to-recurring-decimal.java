@@ -11,7 +11,7 @@ class Solution {
         long num = Math.abs((long) numerator);
         long den = Math.abs((long) denominator);
 
-        long rem = num % den;
+        long rem = Math.abs(num % den);
         long quo = num / den;
 
       
