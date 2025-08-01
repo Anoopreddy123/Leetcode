@@ -1,58 +1,57 @@
 class LRUCache {
 
     class Node{
-        int key,val;
+        int val, key;
         Node next, prev;
 
-        public Node(int key, int val){
-            this.key = key;
+        Node(int key, int val){
             this.val = val;
+            this.key = key;
         }
+
     }
     int size = 0;
-    HashMap<Integer, Node> hashMap;
-     Node head = new Node(0,0);
-        Node tail = new Node(0,0);
+    Node head = new Node(0,0);
+    Node tail = new Node(0,0);
+    HashMap<Integer, Node> cache = new HashMap<>();
     public LRUCache(int capacity) {
-        hashMap = new HashMap<>();
-        head.next = tail;
-        tail.prev = head;
-        this.size = capacity;
+            this.size = capacity;
+            head.next = tail;
+            tail.prev = head;
     }
     
     public int get(int key) {
 
-        int temp =  -1;
-        if(hashMap.containsKey(key)){
-
-            Node currNode = hashMap.get(key);
-            temp = currNode.val; 
-            remove(currNode);
-            add(currNode);
+        if(!cache.containsKey(key)){
+            return -1;
         }
+
+        Node temp = cache.get(key);
+        cache.remove(key);
+        remove(temp);
+        insert(temp);
+
+        return temp.val;
         
-       
-        return temp;
     }
     
     public void put(int key, int value) {
-        
-         if(hashMap.containsKey(key)){
-            remove(hashMap.get(key));
+
+         if(cache.containsKey(key)){
+            remove(cache.get(key));
         }
 
-        if(size ==  hashMap.size()){
+        if(cache.size() == size){
             remove(head.next);
         }
-
-       // hashMap.put(key, new Node(key, value));
-        add(new Node(key, value));
+        insert(new Node(key, value));
     }
+
 
     public void remove(Node node){
 
         if(node == null) return;
-        hashMap.remove(node.key);
+        cache.remove(node.key);
         Node beforeNode = node.prev;
 
         beforeNode.next = node.next;
@@ -60,9 +59,9 @@ class LRUCache {
 
     }
 
-    public void add(Node node){
+    public void insert(Node node){
 
-        hashMap.put(node.key, node);
+        cache.put(node.key, node);
 
         tail.prev.next = node;
          node.prev = tail.prev ;
@@ -70,6 +69,8 @@ class LRUCache {
        tail.prev = node;
         
     }
+
+
 }
 
 /**
