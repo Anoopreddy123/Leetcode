@@ -1,44 +1,28 @@
 class Solution {
     public int numIslands(char[][] grid) {
-        int m = grid.length, n = grid[0].length;
+        
         int count = 0;
+        int m = grid.length, n = grid[0].length;
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
-
                 if(grid[i][j] == '1'){
-                     count++;
-                    bfs(i,j,grid);
-                   
+                    count++;
+                    bfs(grid,m , n, i, j);
                 }
-
             }
         }
-
         return count;
-
     }
 
+    public void bfs(char[][] grid, int m, int n, int i , int j){
 
-    public void bfs(int i, int j, char[][] grid){
-
-
-        if( i  < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] == '0'){
-
+        if( i < 0 || j < 0 || i >= m || j >= n || grid[i][j] != '1'){
             return ;
         }
-
-        if(grid[i][j] == '1')
             grid[i][j] = '0';
-        
-
-             bfs(i - 1,j,grid); // up
-              bfs(i + 1,j,grid); // down
-               bfs(i,j - 1,grid); // left
-                bfs(i,j + 1,grid); // right
-
-
-
-
+            bfs(grid,m , n, i + 1, j);
+            bfs(grid,m , n, i - 1, j);
+            bfs(grid,m , n, i, j + 1);
+            bfs(grid,m , n, i, j - 1);
     }
-
 }
