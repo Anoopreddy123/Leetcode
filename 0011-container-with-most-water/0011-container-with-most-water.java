@@ -6,18 +6,17 @@ class Solution {
 
             while(left < right){
 
-                    area = Math.min(arr[left], arr[right]) * (right - left );
-                    max_area = Math.max(max_area, area);
-
-                    if(arr[left] < arr[right]){
+                   if(arr[left] < arr[right]){
+                        area = Math.max(area, arr[left] * (right - left));
                         left++;
-                    }else{
+                   }else{
+                        area = Math.max(area, arr[right] * (right - left));
                         right--;
-                    }
+                   }
 
             }
 
-            return max_area;
+            return area;
 
     }
 }
