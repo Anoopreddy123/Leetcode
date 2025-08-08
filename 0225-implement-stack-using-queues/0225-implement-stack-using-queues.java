@@ -23,7 +23,9 @@ class MyStack {
         }
 
         while(mainQueue.size() != 1){
-            tempQueue.offer(mainQueue.poll());
+            int temp = mainQueue.poll();
+            tempQueue.offer(temp);
+            topEle = temp;
         }
 
         int temp = mainQueue.poll();
