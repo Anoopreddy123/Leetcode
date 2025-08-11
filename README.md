@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-path-with-maximum-gold](https://github.com/Anoopreddy123/Leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/Anoopreddy123/Leetcode/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2192-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/Anoopreddy123/Leetcode/tree/master/2192-minimum-cost-homecoming-of-a-robot-in-a-grid) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Anoopreddy123/Leetcode/tree/master/2536-determine-if-two-events-have-conflict) |
 ## Hash Table
@@ -222,12 +223,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Anoopreddy123/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anoopreddy123/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0387-first-unique-character-in-a-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Anoopreddy123/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0326-power-of-three](https://github.com/Anoopreddy123/Leetcode/tree/master/0326-power-of-three) |
 | [0394-decode-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0394-decode-string) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Two Pointers
 |  |
 | ------- |
@@ -322,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Anoopreddy123/Leetcode/tree/master/0735-asteroid-collision) |
 | [0983-validate-stack-sequences](https://github.com/Anoopreddy123/Leetcode/tree/master/0983-validate-stack-sequences) |
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Anoopreddy123/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Matrix
 |  |
@@ -346,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/Anoopreddy123/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0326-power-of-three](https://github.com/Anoopreddy123/Leetcode/tree/master/0326-power-of-three) |
 | [0796-reaching-points](https://github.com/Anoopreddy123/Leetcode/tree/master/0796-reaching-points) |
+| [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Memoization
 |  |
 | ------- |
