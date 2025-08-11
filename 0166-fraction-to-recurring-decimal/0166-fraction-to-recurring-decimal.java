@@ -1,47 +1,48 @@
 class Solution {
-    public String fractionToDecimal(int num, int den) {
-         if(num == 0 || den == 0){
+    public String fractionToDecimal(int numerator, int denominator) {
+        
+        if(numerator == 0){
             return "0";
         }
-         long denominator = Math.abs((long)den);
-       long numerator = Math.abs((long)num);
-        long rem = numerator % denominator;
-        long quo = numerator/denominator;
 
-      
-
+       
         StringBuilder sb = new StringBuilder();
-
-         if(den < 0 ^ num < 0){
+          if(numerator < 0 ^ denominator < 0){
             sb.append("-");
         }
+ long num = Math.abs((long) numerator);
+        long den = Math.abs((long) denominator);
 
+        long rem = num % den;
+        long quo = num / den;
         sb.append(quo);
 
         if(rem == 0){
             return sb.toString();
         }
 
-        sb.append(".");
-        HashMap<Long, Integer> cache = new HashMap<>();
+        sb.append('.');
+
+        HashMap<Long, Integer> hashMap = new HashMap<>();
 
         while(rem != 0){
 
-            if(cache.containsKey(rem)){
-                sb.insert(cache.get(rem), "(");
-                sb.append(")");
-
-                break;
+            if(hashMap.containsKey(rem)){
+                sb.insert(hashMap.get(rem), "(");
+                sb.append(')');
+                return sb.toString();
             }
-
-            cache.put(rem, sb.length());
-
+            hashMap.put(rem, sb.length());
             rem = rem * 10;
-            sb.append(rem / denominator);
-            rem = rem % denominator;
+            sb.append(rem/den);
+            rem = rem % den;
+
 
         }
 
         return sb.toString();
+
+
+
     }
 }
