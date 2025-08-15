@@ -1,16 +1,20 @@
 class Solution {
-    public boolean isPowerOfTwo(int num) {
-        int count = 0;
-        while(num > 0){
-            int temp = num % 2;
-          //  stack.push(temp);
-            num = num / 2;
-          if(temp == 1)   count++;
-           
-        }        
+    public boolean isPowerOfTwo(int n) {
         
-        if(count == 1) return true;
-        else return false;
 
+        if(n == 0){
+            return false;
+        }
+
+
+        if(n == 1){
+            return true;
+        }
+
+         if(n%2 != 0){
+            return false;
+        }
+
+        return isPowerOfTwo(n/2);
     }
 }
