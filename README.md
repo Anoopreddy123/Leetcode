@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/Anoopreddy123/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1319-unique-number-of-occurrences](https://github.com/Anoopreddy123/Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Union Find
 |  |
 | ------- |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1252-break-a-palindrome](https://github.com/Anoopreddy123/Leetcode/tree/master/1252-break-a-palindrome) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Anoopreddy123/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Anoopreddy123/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Anoopreddy123/Leetcode/tree/master/2536-determine-if-two-events-have-conflict) |
 ## Backtracking
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Anoopreddy123/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Anoopreddy123/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -379,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/Anoopreddy123/Leetcode/tree/master/0231-power-of-two) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Monotonic Queue
 |  |
 | ------- |
