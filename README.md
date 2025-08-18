@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2192-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/Anoopreddy123/Leetcode/tree/master/2192-minimum-cost-homecoming-of-a-robot-in-a-grid) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2529-range-product-queries-of-powers](https://github.com/Anoopreddy123/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Anoopreddy123/Leetcode/tree/master/2536-determine-if-two-events-have-conflict) |
 ## Hash Table
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Anoopreddy123/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Counting
 |  |
 | ------- |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/Anoopreddy123/Leetcode/tree/master/0443-string-compression) |
 | [0647-palindromic-substrings](https://github.com/Anoopreddy123/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0696-count-binary-substrings](https://github.com/Anoopreddy123/Leetcode/tree/master/0696-count-binary-substrings) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -288,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Anoopreddy123/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Tree
 |  |
 | ------- |
