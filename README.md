@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2192-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/Anoopreddy123/Leetcode/tree/master/2192-minimum-cost-homecoming-of-a-robot-in-a-grid) |
+| [2529-range-product-queries-of-powers](https://github.com/Anoopreddy123/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Anoopreddy123/Leetcode/tree/master/2536-determine-if-two-events-have-conflict) |
 ## Hash Table
 |  |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Anoopreddy123/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2529-range-product-queries-of-powers](https://github.com/Anoopreddy123/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -383,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0231-power-of-two](https://github.com/Anoopreddy123/Leetcode/tree/master/0231-power-of-two) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2529-range-product-queries-of-powers](https://github.com/Anoopreddy123/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 ## Monotonic Queue
 |  |
 | ------- |
