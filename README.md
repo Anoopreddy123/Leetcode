@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2192-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/Anoopreddy123/Leetcode/tree/master/2192-minimum-cost-homecoming-of-a-robot-in-a-grid) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2529-range-product-queries-of-powers](https://github.com/Anoopreddy123/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Anoopreddy123/Leetcode/tree/master/2536-determine-if-two-events-have-conflict) |
 ## Hash Table
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1319-unique-number-of-occurrences](https://github.com/Anoopreddy123/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Union Find
 |  |
 | ------- |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0435-non-overlapping-intervals](https://github.com/Anoopreddy123/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Counting
 |  |
 | ------- |
@@ -338,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Anoopreddy123/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Matrix
 |  |
 | ------- |
