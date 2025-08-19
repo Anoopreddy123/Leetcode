@@ -4,18 +4,18 @@ class Solution {
 
         int start = 0, end = n - 1;
 
-        while(start < end){
+        while(start < m && end >= 0){
 
-            int mid = end - (start + end)/2;
+           // int mid = end - (start + end)/2;
 
-            if(matrix[start][mid] == target){
+            if(matrix[start][end] == target){
                 return true;
             }
 
-            if(matrix[start][mid] < target){
-                start = mid + 1;
+            if(matrix[start][end] < target){
+                start += 1;
             }else{
-                end = end - 1;
+                end -= 1;
             }
 
         }
