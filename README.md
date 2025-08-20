@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Anoopreddy123/Leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Anoopreddy123/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anoopreddy123/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0435-non-overlapping-intervals](https://github.com/Anoopreddy123/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0560-subarray-sum-equals-k](https://github.com/Anoopreddy123/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/Anoopreddy123/Leetcode/tree/master/0733-flood-fill) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Anoopreddy123/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Anoopreddy123/Leetcode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Anoopreddy123/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anoopreddy123/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Anoopreddy123/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Anoopreddy123/Leetcode/tree/master/0146-lru-cache) |
 | [0225-implement-stack-using-queues](https://github.com/Anoopreddy123/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anoopreddy123/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anoopreddy123/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Anoopreddy123/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Doubly-Linked List
 |  |
@@ -374,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/Anoopreddy123/Leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/Anoopreddy123/Leetcode/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/Anoopreddy123/Leetcode/tree/master/0326-power-of-three) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anoopreddy123/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0796-reaching-points](https://github.com/Anoopreddy123/Leetcode/tree/master/0796-reaching-points) |
 | [1448-maximum-69-number](https://github.com/Anoopreddy123/Leetcode/tree/master/1448-maximum-69-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -404,4 +408,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Anoopreddy123/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anoopreddy123/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
