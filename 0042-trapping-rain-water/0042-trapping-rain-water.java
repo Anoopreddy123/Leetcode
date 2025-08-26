@@ -11,7 +11,7 @@ class Solution {
                 if(leftMax < height[left]){
                     leftMax = height[left];
                 }else{
-                    sum = sum + leftMax - height[left];
+                    sum += leftMax - height[left];
                 }
                 left++;
 
@@ -20,7 +20,7 @@ class Solution {
                 if(rightMax < height[right]){
                     rightMax = height[right];
                 }else{
-                    sum = sum + rightMax - height[right];
+                    sum += rightMax - height[right];
                 }
 
                 right--;
