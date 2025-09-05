@@ -2,16 +2,21 @@ class Solution {
     public boolean canJump(int[] nums) {
         int destination = nums.length - 1;
 
+        boolean possible = false;
+
+
         for(int i = nums.length - 2; i >=0; i--){
 
-                if(destination - i <= nums[i]){
-                    destination = i;
+                if(nums[destination] - nums[i] >= 1){
+                    possible = true;
+                }else{
+                    possible = false;
+                    break;
                 }
 
         }
-        if(destination != 0){
-            return false;
-        }
-        return true;
+
+
+        return possible;
     }
 }
