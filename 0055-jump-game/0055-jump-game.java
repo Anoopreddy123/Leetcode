@@ -7,16 +7,18 @@ class Solution {
 
         for(int i = nums.length - 2; i >=0; i--){
 
-                if(nums[destination] - nums[i] >= 1){
-                    possible = true;
-                }else{
-                    possible = false;
-                    break;
+                if(destination - i <= nums[i]){
+                    //possible = true;
+                    destination = i;
                 }
 
         }
 
-
-        return possible;
+        if(destination == 0){
+            return true;
+        }else{
+            return false;
+        }
+       // return possible;
     }
 }
