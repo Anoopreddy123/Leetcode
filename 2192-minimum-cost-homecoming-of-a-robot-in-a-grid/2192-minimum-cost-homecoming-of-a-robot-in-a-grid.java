@@ -1,39 +1,35 @@
 class Solution {
     public int minCost(int[] startPos, int[] homePos, int[] rowCosts, int[] colCosts) {
-        
-            int totalCost = 0, minCost = 0;
+        int robStart = startPos[0], robEnd = startPos[1];
+        int houseStart = homePos[0], houseEnd = homePos[1];
 
-            int rowSize = rowCosts.length, colSize = colCosts.length;
+        int totalCost = 0;
 
-            int startIndex = startPos[0], homeStart = homePos[0];
-
-            int endIndex = startPos[1], homeEnd = homePos[1];
-
-           if(startIndex < homeStart)
-           { while(startIndex < homeStart){
-                totalCost += rowCosts[++startIndex];
+        if(robStart < houseStart){
+            while(robStart < houseStart){
+                robStart++;
+                totalCost += rowCosts[robStart];
             }
-           }else{
-            while(startIndex > homeStart){
-                totalCost += rowCosts[--startIndex];
+        }else{
+            while(robStart > houseStart){
+                robStart--;
+                totalCost += rowCosts[robStart];
             }
-           } 
+        }
 
 
- if(endIndex < homeEnd)
-           {  while(endIndex < homeEnd){
-                totalCost += colCosts[++endIndex];
+        if(robEnd < houseEnd){
+            while(robEnd < houseEnd){
+                robEnd++;
+                totalCost += colCosts[robEnd];
+            }
+        }else{
+            while(robEnd > houseEnd){
+                robEnd--;
+                totalCost += colCosts[robEnd];
+            }
+        }
 
-            } 
-           }else{
-             while(endIndex > homeEnd){
-                totalCost += colCosts[--endIndex];
-
-            } 
-           } 
-           
-
-           return totalCost;
-
+        return totalCost;
     }
 }
