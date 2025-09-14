@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Anoopreddy123/Leetcode/tree/master/0735-asteroid-collision) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Anoopreddy123/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0983-validate-stack-sequences](https://github.com/Anoopreddy123/Leetcode/tree/master/0983-validate-stack-sequences) |
+| [1006-vowel-spellchecker](https://github.com/Anoopreddy123/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1036-rotting-oranges](https://github.com/Anoopreddy123/Leetcode/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/Anoopreddy123/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Anoopreddy123/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Anoopreddy123/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/Anoopreddy123/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1006-vowel-spellchecker](https://github.com/Anoopreddy123/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1039-find-the-town-judge](https://github.com/Anoopreddy123/Leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1319-unique-number-of-occurrences](https://github.com/Anoopreddy123/Leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/Anoopreddy123/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/Anoopreddy123/Leetcode/tree/master/0657-robot-return-to-origin) |
 | [0696-count-binary-substrings](https://github.com/Anoopreddy123/Leetcode/tree/master/0696-count-binary-substrings) |
+| [1006-vowel-spellchecker](https://github.com/Anoopreddy123/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Anoopreddy123/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1250-longest-common-subsequence](https://github.com/Anoopreddy123/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1252-break-a-palindrome](https://github.com/Anoopreddy123/Leetcode/tree/master/1252-break-a-palindrome) |
