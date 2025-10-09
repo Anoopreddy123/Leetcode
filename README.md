@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-range-product-queries-of-powers](https://github.com/Anoopreddy123/Leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Anoopreddy123/Leetcode/tree/master/2536-determine-if-two-events-have-conflict) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/Anoopreddy123/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Hash Table
 |  |
 | ------- |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2529-range-product-queries-of-powers](https://github.com/Anoopreddy123/Leetcode/tree/master/2529-range-product-queries-of-powers) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Anoopreddy123/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Matrix
 |  |
 | ------- |
