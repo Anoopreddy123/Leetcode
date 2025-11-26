@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Anoopreddy123/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2192-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/Anoopreddy123/Leetcode/tree/master/2192-minimum-cost-homecoming-of-a-robot-in-a-grid) |
+| [2201-count-artifacts-that-can-be-extracted](https://github.com/Anoopreddy123/Leetcode/tree/master/2201-count-artifacts-that-can-be-extracted) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2529-range-product-queries-of-powers](https://github.com/Anoopreddy123/Leetcode/tree/master/2529-range-product-queries-of-powers) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/Anoopreddy123/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1319-unique-number-of-occurrences](https://github.com/Anoopreddy123/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Anoopreddy123/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2201-count-artifacts-that-can-be-extracted](https://github.com/Anoopreddy123/Leetcode/tree/master/2201-count-artifacts-that-can-be-extracted) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/Anoopreddy123/Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Union Find
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/Anoopreddy123/Leetcode/tree/master/1184-car-pooling) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Anoopreddy123/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Anoopreddy123/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2201-count-artifacts-that-can-be-extracted](https://github.com/Anoopreddy123/Leetcode/tree/master/2201-count-artifacts-that-can-be-extracted) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Anoopreddy123/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Anoopreddy123/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Matrix
